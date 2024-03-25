@@ -26,32 +26,34 @@
 <nav class="navbar bg-body-tertiary">
   <form class="container-fluid">
 
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Nome" id="nome">
+    <div class="col-10 mb-3">
+      <label for="IdName" class="form-label">Nome:</label>
+      <input type="text" class="form-control" placeholder="Nome" id="IdName">
     </div>
 
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Endereço" id="endereco">
+    <div class="col-10 mb-3">
+      <label for="IdCell" class="form-label">Telefone:</label>
+      <input type="tel" class="form-control" placeholder="telefone" id="IdCell">
     </div>
 
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Bairro" id="bairro">
+    <div class="col-10 mb-3">
+      <label for="IdOrigin" class="form-label">Origem:</label>
+      <select class="form-select" aria-label="Default select example" id="IdOrigin">
+        <option selected>Celular</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
     </div>
 
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="CEP" id="cep">
+    <div class="col-10 mb-3">
+      <label for="IdData" class="form-label">Data de Contato:</label>
+      <input type="date" class="form-control" placeholder="mm/dd/yyyy" id="IdData">
     </div>
 
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Cidade" id="cidade">
-    </div>
-
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Estado" id="estado">
-    </div>
-
-    <div class="input-group col-10 mb-3">
-      <input type="text" class="form-control" placeholder="Observação" id="observacao" >
+    <div class=" col-10 mb-3">
+      <label for="IdObservacao" class="form-label">Observação:</label>
+      <textarea class="form-control" id="IdObservacao" rows="3"></textarea>
     </div>
 
   </form>
